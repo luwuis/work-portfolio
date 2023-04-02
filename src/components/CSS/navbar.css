@@ -1,0 +1,54 @@
+.navbar{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background: black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo{
+	position: relative;
+	test-decoration: none;
+	color: #00D100;
+	font-size: 1.5rem;
+	font-weight: 750;
+	left: 1%;
+	letter-spacing: 0.5px;
+}
+.navbar ul{
+	position: relative;
+	height: 100%;
+	width: 35%;
+}
+.navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+	width: auto;
+	height: inherit;
+	background: black;
+	transition: 0.3s linear;
+}
+
+.navbar ul li a{
+	float: right;
+	position: relative;
+	display: flex;
+	height: 100%;	
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px;
+	text-decoration: none;
+	color: #00D100;
+	font-size: 1rem;
+	font-weight: 550;
+	letter-spacing: 2px;
+	transition: 0.3s linear;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+	background: #00D100;
+	color: white;
+}
