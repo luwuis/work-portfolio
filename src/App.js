@@ -6,10 +6,11 @@ function App() {
 
     <div className="App">
       <Navbar></Navbar>
-      <h1>Welcome</h1>
+      <h1>
+        Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>
+        Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>Welcome<br></br>
+      </h1>
     </div>
-
-
   );
 }
 
